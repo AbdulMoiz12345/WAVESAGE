@@ -46,11 +46,11 @@ SELECTED_COEFFS = [5, 4, 3, 2, 1]
 
 # Percent of SHAP importance to select from each coefficient level
 TOP_PERCENT_BY_COEFF = {
-    "Coeff 5": 0.15,
-    "Coeff 4": 0.15,
-    "Coeff 3": 0.15,
-    "Coeff 2": 0.20,
-    "Coeff 1": 0.20,
+    "Coeff 5": 0.25,
+    "Coeff 4": 0.25,
+    "Coeff 3": 0.25,
+    "Coeff 2": 0.25,
+    "Coeff 1": 0.25,
 }
 
 # Threshold for identifying active reconstruction segments

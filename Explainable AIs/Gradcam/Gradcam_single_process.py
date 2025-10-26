@@ -20,7 +20,7 @@ Before running:
         y_test.npy
 
 - Run the script:
-    python conv1d_eeg_classifier.py
+    python Model.py
 
 """
 
