@@ -11,6 +11,16 @@ This script:
 - Compares detected segments to ground-truth labeled abnormal regions
 - Reports Coverage, Precision, and IoU metrics
 
+
+# ---------------------------------------------------------------
+# Ground Truth Note:
+# The EEG file we are using includes the abnormal segment times
+# directly in its filename. For example:
+#    "subject1_0.6_1.45.npy"
+# Here, 0.6s is the start and 1.45s is the end of the abnormal segment.
+# These values are extracted using a regex for evaluation purposes.
+# ---------------------------------------------------------------
+
 """
 
 import os
